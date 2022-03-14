@@ -20,7 +20,25 @@ const onClickAdd = () => {
   const completeButton = document.createElement("button");
   completeButton.innerText = "完了";
   completeButton.addEventListener("click", () => {
-    alert("完了");
+    const deleteTarget = deleteButton.parentNode.parentNode;
+    const addCompleteElement = document.getElementById("complete-list");
+    document.getElementById("incomplete-list").removeChild(deleteTarget);
+    li.appendChild(div).appendChild(p);
+    li.appendChild(div).appendChild(backButton);
+    li.appendChild(div).removeChild(completeButton);
+    li.appendChild(div).removeChild(deleteButton);
+    addCompleteElement.appendChild(li);
+  });
+
+  // button(戻る)タグ作成
+  const backButton = document.createElement("button");
+  backButton.innerText = "戻す";
+  backButton.addEventListener("click", () => {
+    li.appendChild(div).appendChild(p);
+    li.appendChild(div).removeChild(backButton);
+    li.appendChild(div).appendChild(completeButton);
+    li.appendChild(div).appendChild(deleteButton);
+    addElement.appendChild(li);
   });
 
   //button（削除）タグ生成
