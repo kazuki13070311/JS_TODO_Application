@@ -1,13 +1,13 @@
 # Javascript で TODO 機能を作成（勉強用）
 
-https://gyazo.com/47a908cda4c5ea78edc8c9c057da3bde
-
 - codesandbox（エディタ）
   https://05x96k.csb.app/
 
+![47a908cda4c5ea78edc8c9c057da3bde](https://user-images.githubusercontent.com/57397215/158444206-4cf90641-9581-42d6-99b1-80bac0b0e823.gif)
+
 <br>
 
-- input-List
+## Learning list
 
 [要素の作成（node の作成）「createElement」とその要素へのクラス名の付与「className」](https://www.notion.so/node-createElement-className-63c495c6b0a5452c988ed8d06066f794)
 
@@ -18,3 +18,6 @@ https://gyazo.com/47a908cda4c5ea78edc8c9c057da3bde
 [removeChild（レシーバの子要素「子 Node」を削除する）](https://www.notion.so/removeChild-Node-e3429463cafc4da485a2e704dcf6c657)
 
 [firstElementChild（レシーバの最初の子要素を取得する）](https://www.notion.so/firstElementChild-89ee008692094fceb1fa9bbb414e8990)
+
+複数の場所で同じ処理をする場合は共通化する（関数化する）
+関数化する際は、動的に変わる値は引数に入れるととりまわせる。
