@@ -12,7 +12,7 @@ const deleteFromIncompleteList = (deleteTarget) => {
   document.getElementById("incomplete-list").removeChild(deleteTarget);
 };
 
-// 未完了リストにさ作成するタスク
+// 未完了リストに作成するタスク
 const createIncompleteList = (text) => {
   // li作成
   const li = document.createElement("li");
